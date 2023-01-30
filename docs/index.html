@@ -4,224 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?v=1.0">
+
+    <link rel="stylesheet" href="style.css?v=2.1">
+
     <title>Beaters</title>
 </head>
 <body>
-    <header>
-        <div class="header--container">
-            <img src="assets/logo.png" alt="Logo de beaters" title="Este es Beaters :3">
-            <div class="header--title">
-                <h1>Beaters!</h1>
-                <span>El bot "UWU"</span>
-            </div>
-        </div>
-    </header>
     <main class="main">
-        <a href="https://discord.com/oauth2/authorize?client_id=670746778773225483&permissions=1074121728&scope=bot" target="_blank" title="Invitar a Beaters a tu servidor" class="button--invite">Invitame a tu servidor!</a>
-        <br>
-        <br>
-        <br>
-        <div class="main--description">
-            <h2>Lista de comandos</h2>
-            <p>Beaters tiene muchos comandos y todos se pueden consultar desde el bot con el comando <b>bt!help</b> y de manera particular con el comando <b>bt!help nombre_comando</b>. Sin embargo aqui hay una lista de los comandos separados por categorias</p>
+        <section class="main__hero">
+            <nav class="main__nav container">
+                <img src="" alt="" class="main__hamburguer">
+                <img src="" alt="" class="main__logo">
+            </nav>
+            <ul class="main__links">
+                <li class="main__list"><a href="#" class="main__link">Home</a></li>
+                <li class="main__list"><a href="#" class="main__link">Comands</a></li>
+                <li class="main__list"><a href="#" class="main__link">About</a></li>
+                <li class="main__list"><a href="#" class="main__link">Donations</a></li>
+            </ul>
+        </section>
 
-            <br><b>*u</b> => Se puede o no etiquetar un usuario
-            <br><b>*m</b> => Un mensaje 
-            <br><b>*n</b> => Un numero
-            <br><br>Todos los comandos se utilizan anteponiendo el prefijo del bot "<b>bt!</b>"
-        </div>
-        <div class="main--tabs">
-            <div class="main--labels__menu">
-                <label for="radio1" checked>Reaccion</label>
-                <label for="radio2">Interaccion</label>
-                <label for="radio3">Divertidos</label>
-                <label for="radio4">NSFW</label>
+        <section class="main__buy">
+            <div class="main__content">
+                <h2 class="main__title">My title</h2>
+                <p class="main__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptate quis quibusdam quae. Veritatis illum hic quaerat quo perferendis, dolores quos cupiditate fugiat, ipsa, officia id culpa dignissimos est. Voluptatum.</p>
+
+                <a href="#" class="main__cta">Shop Now!<img src="" alt="imagen" class="main__arrow"></a>
             </div>
-            <div class="main--content">
-                <input type="radio" name="radio" id="radio1">
-                <div class="tab1">
-                    <h2>Comandos de reaccion</h2>
-                    <p>Los comandos de reaccion sirven, como dice su nombre, para reaccionar! Puedes mostrar que tan feliz estas o que tan poco te importa lo que dijeron.</p>
-                    <ul class="main--content__items">
-                        <li>
-                            <h3>angry <b>*u</b></h3>
-                            <p>Demuestra tu ira!.</p>
-                        </li>
-                        <li>
-                            <h3>bored</h3>
-                            <p>Avisales a todos que estas aburrido.</p>
-                        </li>
-                        <li>
-                            <h3>cry <b>*u</b></h3>
-                            <p>Libera tus emociones.</p>
-                        </li>
-                        <li>
-                            <h3>eat</h3>
-                            <p>Es hora de comer.</p>
-                        </li>
-                        <li>
-                            <h3>hi <b>*u</b></h3>
-                            <p>Saluda a todo el mundo!.</p>
-                        </li>
-                        <li>
-                            <h3>happy <b>*u</b></h3>
-                            <p>Transmite tu felicidad!.</p>
-                        </li>
-                        <li>
-                            <h3>idc <b>*u</b></h3>
-                            <p>Si algo no te importa simplemente dilo.</p>
-                        </li>
-                        <li>
-                            <h3>lewd <b>*u</b></h3>
-                            <p>Aqui no se juzga nada.</p>
-                        </li>
-                        <li>
-                            <h3>run <b>*u</b></h3>
-                            <p>Aveces escapar es la mejor opcion. Ponte a correr!.</p>
-                        </li>
-                        <li>
-                            <h3>sleep <b>*u</b></h3>
-                            <p>Ponte a dormir zzz.</p>
-                        </li>
-                        <li>
-                            <h3>shy <b>*u</b></h3>
-                            <p>Es normal sentirse incomodo algunas veces.</p>
-                        </li>
-                        <li>
-                            <h3>study</h3>
-                            <p>Hazle saber a tus amigos que necesitas concentrarte.</p>
-                        </li>
-                        <li>
-                            <h3>toxic <b>*u</b></h3>
-                            <p>Todos tenemos un lado toxico, dejalo salir.</p>
-                        </li>
-                    </ul>
-                </div>
-                <input type="radio" name="radio" id="radio2">
-                <div class="tab2">
-                    <h2>Comandos de Interaccion</h2>
-                    <p>Los comandos de interaccion sirven en su mayoria para jugar, o para molestar, a tus amigos en la sala de chat!</p>
-                    <ul class="main--content__items">
-                        <li>
-                            <h3>bye <b>*u</b></h3>
-                            <p>Despidete de tu compañero.</p>
-                        </li>
-                        <li>
-                            <h3>comfort</h3>
-                            <p>Ayuda a tus amigos en sus crisis existenciales.</p>
-                        </li>
-                        <li>
-                            <h3>cry <b>*u</b></h3>
-                            <p>Libera tus emociones.</p>
-                        </li>
-                        <li>
-                            <h3>happy <b>*u</b></h3>
-                            <p>Transmite tu felicidad!.</p>
-                        </li>
-                        <li>
-                            <h3>hug <b>*u</b></h3>
-                            <p>Abraza a tus amigos, con la intencion que mas te guste.</p>
-                        </li>
-                        <li>
-                            <h3>kill <b>*u</b></h3>
-                            <p>La amistad nunca fue una opcion.</p>
-                        </li>
-                        <li>
-                            <h3>kiss <b>*u</b></h3>
-                            <p>Dale un besito a esa persona <3.</p>
-                        </li>
-                        <li>
-                            <h3>punch <b>*u</b></h3>
-                            <p>Golpea a ese amigo que te debe dinero.</p>
-                        </li>
-                        <li>
-                            <h3>study</h3>
-                            <p>Hazle saber a tus amigos que necesitas concentrarte</p>
-                        </li>
-                    </ul>
-                </div>
-                <input type="radio" name="radio" id="radio3">
-                <div class="tab3">
-                    <h2>Divertidos</h2>
-                    <p>Estos comandos te permiten hacer ciertas cosas cuando estas aburrido en la sala de chat.</p>
-                    <ul class="main--content__items">
-                        <li>
-                            <h3>8ball <b>*m</b></h3>
-                            <p>Hazle una pregunta a la bola magica.</p>
-                        </li>
-                        <li>
-                            <h3>alberto <b>*m</b></h3>
-                            <p>Deja que Alberto notifique cosas en el servidor.</p>
-                        </li>
-                        <li>
-                            <h3>happy</h3>
-                            <p>Transmite tu felicidad!.</p>
-                        </li>
-                        <li>
-                            <h3>choose <b>*m</b> ; <b>*m</b></h3>
-                            <p>Si no puedes decidir algo, deja el bot lo haga por ti.</p>
-                        </li>
-                        <li>
-                            <h3>dice <b>*n</b> <b>*n</b></h3>
-                            <p>El bot tirará una cierta cantidad de dados. Cada dado tendrá la cantidad de caras que especifiques.</p>
-                        </li>
-                        <li>
-                            <h3>news <b>*u</b> <b>*m</b></h3>
-                            <p>Que hiciste el dia de hoy?.</p>
-                        </li>
-                        <li>
-                            <h3>love <b>*u</b></h3>
-                            <p>Utiliza la calculadora del amor con cierta persona <3.</p>
-                        </li>
-                        <li>
-                            <h3>say <b>*m</b></h3>
-                            <p>Deja que sea el bot el que diga lo que no quieres decir.</p>
-                        </li>
-                        <li>
-                            <h3>srole <b>*u</b></h3>
-                            <p>Etiqueta de 1 hasta 5 usuarios para que el bot les escoja una posicion de lol.</p>
-                        </li>
-                        <li>
-                            <h3>trap <b>*u</b> <b>*m</b></h3>
-                            <p>Utiliza tu carta trampa para derrotar a tu enemigo.</p>
-                        </li>
-                    </ul>
-                </div>
-                <input type="radio" name="radio" id="radio4">
-                <div class="tab4">
-                    <h2>NSFW</h2>
-                    <p>Comandos +18.</p>
-                    <ul class="main--content__items">
-                        <li>
-                            <h3>fuck <b>*u</b></h3>
-                            <p>No es un buen momento para explicar este comando.</p>
-                        </li>
-                        <li>
-                            <h3>fuckg <b>*u</b></h3>
-                            <p>No es un buen momento para explicar este comando.</p>
-                        </li>
-                        <li>
-                            <h3>fuckl <b>*u</b></h3>
-                            <p>No es un buen momento para explicar este comando.</p>
-                        </li>
-                        <li>
-                            <h3>horny <b>*u</b></h3>
-                            <p>No es un buen momento para explicar este comando.</p>
-                        </li>
-                        <li>
-                            <h3>naked <b>*u</b></h3>
-                            <p>No es un buen momento para explicar este comando.</p>
-                        </li>
-                        <li>
-                            <h3>spank <b>*u</b></h3>
-                            <p>No es un buen momento para explicar este comando.</p>
-                        </li>
-                    </ul>
-                </div>
+        </section>
+
+        <div class="main__bg"></div>
+
+        <section class="main__about container">
+            <div class="main__content">
+                <h3 class="main__title">Otro titulo</h3>
+                <p class="main__paragraph--about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iusto dolor perferendis quibusdam magni inventore minima expedita laboriosam. Minus, sequi beatae laboriosam a fuga et at ullam. Aliquid, amet dolores!</p>
             </div>
+        </section>
+
+        <div class="main__bg main__bg--second">
+            
         </div>
-        <div><br><br><br></div>
+
+        <div class="main__controls">
+            <img src="" alt="Control Left" class="main__control">
+            <img src="" alt="Control Right" class="main__control">
+        </div>
     </main>
 </body>
 </html>
